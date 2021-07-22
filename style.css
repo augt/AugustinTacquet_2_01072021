@@ -2,7 +2,7 @@
 body
 {
     font-family: 'Raleway', sans-serif;
-    margin: 0 4% 0 4%
+    margin: 0 4% 0 4%;
 }
 a
 {
@@ -13,6 +13,7 @@ a:hover
 {
     color: #0065FC;
 }
+
 /*header */
 header
 {
@@ -44,6 +45,7 @@ nav li
     margin-left: 50px;
     padding: 40px 10px 0px 10px;
 }
+
 nav li:nth-child(1):hover, nav li:nth-child(2):hover
 {
     border-top: 3px solid #0065FC;
@@ -95,6 +97,7 @@ h1
 {
     color: black;
 }
+
 .search_text_button
 {
     
@@ -110,4 +113,80 @@ h1
 .search_icon_button
 {
     display: none;
+}
+
+/*filters section*/
+.filters_bloc
+{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.filters_bloc h2
+{
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+.filters_bloc ul
+{
+    display: flex;
+    list-style-type: none;
+    font-size: 1.2em;
+    font-weight: 900;
+    padding-left: 20px;
+}
+
+.filters_bloc li
+{
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+.filters_bloc a
+{
+    border-top: #F2F2F2 solid 3px;
+    border-right: #F2F2F2 solid 3px;
+    border-bottom: #F2F2F2 solid 3px;
+    border-radius: 0 50px 50px 0;
+    padding:10px 15px 10px 30px;
+    display: block;
+}
+
+.filters_bloc i
+{
+    color: #0065FC;
+    border: #DEEBFF solid 3px;
+    border-radius: 50px;
+    background-color: #DEEBFF;
+}
+
+.fa-heart, .fa-dog, .fa-money-bill-wave
+{
+    padding: 12px;
+    margin-right: -17px;
+}
+
+.fa-money-bill-wave
+{
+    padding: 12px 10px;
+    margin-right: -17px;
+}
+
+.fa-child
+{
+    padding: 12px 14px;
+    margin-right: -17px;
+}
+
+.fa-info
+{
+    color:#0065FC;
+    border: #F2F2F2 2px solid;
+    border-radius: 50px;
+    padding: 4px 8px;
+    font-size: 0.8em;
+    margin-right: 10px;
 }
