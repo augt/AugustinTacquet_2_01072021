@@ -40,7 +40,7 @@ nav ul
 
 nav li
 {
-    font-size: 1.2em;
+    font-size: 1.1em;
     margin-left: 50px;
     padding: 40px 10px 0px 10px;
 }
@@ -53,4 +53,61 @@ nav li:nth-child(1):hover, nav li:nth-child(2):hover
 {
     color: #0065FC;
     font-weight: bold;
+}
+
+/* search by location section*/
+
+.search_section p
+{
+    margin-top: 0;
+    font-size: 1.075em;
+}
+
+h1
+{
+    margin-bottom: 10px;
+}
+
+.search_section form
+{
+    display: flex;
+}
+
+.fa-map-marker-alt
+{
+    font-size: 1.2em;
+    padding: 15px;
+    border:#F2F2F2 solid 3px;
+    border-radius: 15px 0 0 15px;
+    background-color: #F2F2F2;
+}
+
+.search_section input
+{
+    padding-left: 15px;
+    border:#F2F2F2 solid 3px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: black;
+}
+
+::placeholder
+{
+    color: black;
+}
+.search_text_button
+{
+    
+    background-color: #0065FC;
+    padding: 0 20px 0 20px;
+    border:#0065FC solid 3px;
+    border-radius: 0 15px 15px 0;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.search_icon_button
+{
+    display: none;
 }
