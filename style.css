@@ -9,10 +9,7 @@ a
     text-decoration: none;
     color: black;
 }
-a:hover
-{
-    color: #0065FC;
-}
+
 
 /*header */
 header
@@ -51,6 +48,10 @@ nav li:nth-child(1):hover, nav li:nth-child(2):hover
     border-top: 3px solid #0065FC;
 }
 
+nav a:hover
+{
+    color: #0065FC;
+}
 .register
 {
     color: #0065FC;
@@ -126,7 +127,6 @@ h1
 .filters_bloc h2
 {
     font-size: 1.2em;
-    font-weight: 900;
 }
 
 .filters_bloc ul
@@ -134,7 +134,7 @@ h1
     display: flex;
     list-style-type: none;
     font-size: 1.2em;
-    font-weight: 900;
+    font-weight: bold;
     padding-left: 20px;
 }
 
@@ -152,7 +152,16 @@ h1
     border-bottom: #F2F2F2 solid 3px;
     border-radius: 0 50px 50px 0;
     padding:10px 15px 10px 30px;
-    display: block;
+}
+
+.filters_bloc a:hover
+{
+    color: #0065FC;
+    border-top: #DEEBFF solid 3px;
+    border-right: #DEEBFF solid 3px;
+    border-bottom: #DEEBFF solid 3px;
+    border-radius: 0 50px 50px 0;
+    padding:10px 15px 10px 30px;
 }
 
 .filters_bloc i
