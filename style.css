@@ -199,3 +199,48 @@ h1
     font-size: 0.8em;
     margin-right: 10px;
 }
+
+/*accomodations'section*/
+
+.fa-star
+{
+    color: #0065FC;
+}
+
+.grey_star
+{
+    color: #F2F2F2;
+}
+
+.accommodations_section
+{
+    display: flex;
+}
+article
+{
+    background-color: #F2F2F2;
+    border: #F2F2F2 solid 1px;
+    border-radius: 20px;
+    padding: 20px 10px 20px 40px;
+}
+
+article img
+{
+    width: 240px;
+    height: 115px;
+    border-radius: 15px 15px 0 0;
+    object-fit: cover;
+}
+.accommodation_cards_bloc
+{
+    display: flex;
+}
+
+.accommodation_card
+{
+    background-color: white;
+    border: white solid 5px;
+    border-radius: 15px;
+    margin: 10px 30px 20px 0;
+}
+
