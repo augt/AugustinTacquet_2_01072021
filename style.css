@@ -221,7 +221,7 @@ h1
     display: flex;
     justify-content: space-between;
 }
-/*accommodations in Marseille*/
+/*Accommodations in Marseille*/
 article
 {
     background-color: #F2F2F2;
@@ -258,6 +258,11 @@ article
 .accommodation_card h3, .accommodation_card p
 {
     margin: 3px 0 3px 10px;
+}
+
+.accommodation_card i
+{
+    font-size: 0.9em;
 }
 
 article p a
