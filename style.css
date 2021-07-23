@@ -199,12 +199,16 @@ h1
     font-size: 0.8em;
     margin-right: 10px;
 }
-
-/*accomodations'section*/
+.filters_bloc + p
+{
+    margin-bottom: 40px;
+}
+/*accommodations'section*/
 
 .fa-star
 {
     color: #0065FC;
+    font-size: 0.9em;
 }
 
 .grey_star
@@ -215,7 +219,9 @@ h1
 .accommodations_section
 {
     display: flex;
+    justify-content: space-between;
 }
+/*accommodations in Marseille*/
 article
 {
     background-color: #F2F2F2;
@@ -224,7 +230,7 @@ article
     padding: 20px 10px 20px 40px;
 }
 
-article img
+.accommodation_card img
 {
     width: 240px;
     height: 115px;
@@ -242,5 +248,95 @@ article img
     border: white solid 5px;
     border-radius: 15px;
     margin: 10px 30px 20px 0;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.05);
 }
+.accommodation_card:hover
+{
+    transform: scale(1.05);
+}
+
+.accommodation_card h3, .accommodation_card p
+{
+    margin: 3px 0 3px 10px;
+}
+
+article p a
+{
+    font-weight: bold;
+}
+
+article p a:hover
+
+{
+color: #0065FC;
+}
+
+/*Most popular accommodations*/
+
+aside
+{
+    background-color: #F2F2F2;
+    border: #F2F2F2 solid 1px;
+    border-radius: 20px;
+    padding: 20px 40px;
+    white-space: nowrap;
+}
+
+.most_popular_title
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.most_popular_title i
+{
+    font-size: 1.6em;
+}
+
+.most_popular_card
+{
+    background-color: white;
+    display: flex;
+    border: white solid 5px;
+    border-radius:15px ;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.05);
+}
+
+.most_popular_card:hover
+{
+    transform: scale(1.05);
+}
+
+.most_popular_card img
+{
+    width: 125px;
+    height: 135px;
+    border-radius: 15px 0 0 15px;
+    object-fit: cover;
+    
+}
+.most_popular_card_margin
+{
+    margin: 15px 0 15px 0;
+}
+
+aside h3
+{
+    margin: 15px 50px 5px 20px;
+}
+
+.price_paragraph
+{
+    margin: 0 0 0px 20px;
+    
+}
+
+.rating_paragraph
+{
+    margin: 30px 0 10px 20px;
+    
+    font-size: 0.9em;
+}
+
 
