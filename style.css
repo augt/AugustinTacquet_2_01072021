@@ -11,14 +11,14 @@ a
 }
 main
 {
-    margin: 0 4%;
+    padding: 0 4%;
 }
 /*header */
 header
 {
     display: flex;
     justify-content: space-between;
-    margin: 0 4%;
+    padding: 0 4%;
 }
 
 header img
@@ -99,7 +99,7 @@ h1
     color: black;
 }
 
-.search_text_button
+button
 {
     background-color: #0065FC;
     padding: 0 23px;
@@ -219,14 +219,15 @@ button:hover
     color: #F2F2F2;
 }
 
-
-/*Accommodations in Marseille*/
+/*Accommodations section*/
 
 .accommodations_section
 {
     display: flex;
     justify-content: space-between;
 }
+
+/*Accommodations in Marseille*/
 .accommodations_Marseille
 {
     background-color: #F2F2F2;
@@ -234,19 +235,19 @@ button:hover
     padding: 20px 10px 20px 40px;
 }
 
-.accommodation_card img
+.accommodation_Marseille_card img
 {
     width: 240px;
     height: 115px;
     border-radius: 15px 15px 0 0;
     object-fit: cover;
 }
-.accommodation_cards_bloc
+.accommodation_Marseille_cards_bloc
 {
     display: flex;
 }
 
-.accommodation_card
+.accommodation_Marseille_card
 {
     background-color:white;
     border-radius: 15px;
@@ -254,17 +255,17 @@ button:hover
     padding:5px;
     box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.05);
 }
-.accommodation_card:hover
+.accommodation_Marseille_card:hover
 {
     transform: scale(1.05);
 }
 
-.accommodation_card h3, .accommodation_card p
+.accommodation_Marseille_card h3, .accommodation_Marseille_card p
 {
     margin: 3px 0 3px 10px;
 }
 
-.accommodation_card i
+.accommodation_Marseille_card i
 {
     font-size: 0.9em;
 }
@@ -437,4 +438,103 @@ footer a:hover
 color: #0065FC;
 }
 
+/*media queries for tablets*/
 
+@media screen and (max-width: 768px) 
+{   
+    
+
+
+}
+
+
+/*media queries for smartphone*/
+
+@media screen and (max-width: 480px)
+{
+    /*general rules*/
+    main
+    {
+        padding: 0;
+    }
+
+    /*header*/
+
+    header
+    {
+        justify-content: unset;
+    }
+
+    nav ul 
+    {
+        flex-wrap:wrap-reverse;
+    }
+    header img 
+    {
+        float: left;
+        
+    }
+    /*search section*/
+
+    .search_text_button
+    {
+        display: none;
+    }
+    .search_icon_button
+    {
+        display: unset;
+    }
+
+    /*filters section*/
+
+    .filters_bloc
+    {
+        flex-direction: column;
+    }
+
+    .filters_bloc ul
+    {
+        flex-wrap: wrap;
+        padding: 0;
+    }
+    .filters_bloc li
+    {
+        padding: 0;
+    }
+
+    /* accomodations section */
+
+    .accommodations_section
+    {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .accommodation_Marseille_cards_bloc
+
+    {
+        flex-direction: column;
+    }
+
+    /* activities section*/
+
+    .activities_cards_bloc
+    {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+
+    footer
+    {
+        flex-direction: column;
+    }
+
+    footer div
+
+    {
+        width: auto;
+    }
+
+
+}
