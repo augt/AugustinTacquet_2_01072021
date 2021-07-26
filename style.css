@@ -382,7 +382,7 @@ aside h3
 .activities_cards_bloc img
 {
 border-radius: 20px 20px 0 0;
-width: 320px;
+width: 300px;
 object-fit: cover;
 }
 
@@ -458,22 +458,66 @@ color: #0065FC;
         padding: 0;
     }
 
+    html, body 
+    {
+        overflow-x: hidden;
+    }
+
     /*header*/
 
     header
-    {
-        justify-content: unset;
+    {   
+        flex-direction: column;
+        padding: 0;
     }
-
+    
     nav ul 
     {
         flex-wrap:wrap-reverse;
+        justify-content: flex-end;
+        position: relative;
     }
+    .register a
+        {
+            position: relative;
+            bottom: 35px;
+            left: 40px;
+        }
+        
+    nav li 
+    {
+        padding-top: 0;
+        padding-bottom: 10px;
+        width: 50%;
+    }
+    nav a 
+    {
+        margin: auto;
+    }
+
+    
+
     header img 
     {
-        float: left;
-        
+        padding-left: 15px;
     }
+
+    nav li:hover
+    {
+        border-top: none;
+    }
+
+    .accommodations_link:hover, .activities_link:hover
+    {
+        border-bottom-color: #0065FC;
+    }
+
+    .accommodations_link, .activities_link
+    {
+        border-bottom: #F2F2F2 3px solid;
+    }
+    
+    
     /*search section*/
 
     .search_text_button
@@ -528,6 +572,7 @@ color: #0065FC;
     footer
     {
         flex-direction: column;
+        padding:30px 15px ;
     }
 
     footer div
