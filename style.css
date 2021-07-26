@@ -88,7 +88,8 @@ h1
 .search_section input
 {
     padding-left: 15px;
-    border:#F2F2F2 solid 3px;
+    border:#F2F2F2 solid 2px;
+    border-right: none;
     font-size: 1.2em;
     font-weight: bold;
     color: black;
@@ -206,7 +207,7 @@ button:hover
 {
     margin-bottom: 40px;
 }
-/*accommodations'section*/
+/*Accommodations'section*/
 
 .fa-star
 {
@@ -218,8 +219,6 @@ button:hover
 {
     color: #F2F2F2;
 }
-
-/*Accommodations section*/
 
 .accommodations_section
 {
@@ -382,7 +381,7 @@ aside h3
 .activities_cards_bloc img
 {
 border-radius: 20px 20px 0 0;
-width: 300px;
+width: 315px;
 object-fit: cover;
 }
 
@@ -481,9 +480,9 @@ color: #0065FC;
         {
             position: relative;
             bottom: 35px;
-            left: 40px;
+            left: 30px;
         }
-        
+
     nav li 
     {
         padding-top: 0;
@@ -499,7 +498,7 @@ color: #0065FC;
 
     header img 
     {
-        padding-left: 15px;
+        padding-left: 20px;
     }
 
     nav li:hover
@@ -519,6 +518,11 @@ color: #0065FC;
     
     
     /*search section*/
+    
+    .search_section
+    {
+        margin: 0 20px;;
+    }
 
     .search_text_button
     {
@@ -527,31 +531,86 @@ color: #0065FC;
     .search_icon_button
     {
         display: unset;
+        border-radius: 15px;
+        padding: 0 15px;
+        margin-left: -10px;
     }
-
+    form 
+    {
+        margin-top: 40px;
+    }
+    input 
+    {
+        padding-right: 6px;
+    }
     /*filters section*/
 
     .filters_bloc
-    {
+    {   
+        margin: 0 20px;
         flex-direction: column;
+        align-items: flex-start;
     }
 
     .filters_bloc ul
     {
         flex-wrap: wrap;
         padding: 0;
+        margin: 0;
     }
+
+    .filters_bloc h2 
+    {
+        margin-bottom: 5px;
+        margin-top: 30px;
+    }
+
     .filters_bloc li
     {
         padding: 0;
+        margin: 5px 5px 5px 0px;
+        font-size: 0.9em;
+    }
+
+    .filters_bloc +p 
+    {
+        margin: 30px 20px;
+    }
+
+    .fa-info 
+    {
+        float: left;
     }
 
     /* accomodations section */
 
     .accommodations_section
     {
-        flex-direction: column;
-        justify-content: space-between;
+        flex-direction: column-reverse;
+    }
+
+    /* most popular*/
+
+    aside 
+    {
+        padding: 20px;
+        font-size:0.9em;
+        border-radius: 0px;
+    }
+
+    aside h3
+    {
+        margin-right: 30px;
+    }
+
+    /*accommodations in Marseille*/
+
+    .accommodations_Marseille
+    {   
+        background: unset;
+        padding:0;
+        margin: 20px;
+        font-size: 0.9em;
     }
 
     .accommodation_Marseille_cards_bloc
@@ -560,19 +619,57 @@ color: #0065FC;
         flex-direction: column;
     }
 
+    .accommodation_Marseille_card
+    {
+        margin: 5px 0px;
+
+    }
+
+    .accommodation_Marseille_card img
+    {
+        width: 100%;
+    }
+
+    .accommodations_Marseille div + p 
+    {
+        font-size: 1.3em;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
     /* activities section*/
 
+    #activities_anchor
+    {
+        padding:0;
+        margin-right: 20px;
+        margin-left:20px;
+    }
     .activities_cards_bloc
     {
         flex-direction: column;
-        justify-content: space-between;
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 335px;
     }
 
+    .activities_cards_bloc img
+    {
+        height: 135px;
+        width: 335px;
+    }
+    .activity_card
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    
+    /*footer*/
 
     footer
     {
         flex-direction: column;
-        padding:30px 15px ;
+        padding:30px 20px ;
     }
 
     footer div
