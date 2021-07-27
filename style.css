@@ -11,14 +11,14 @@ a
 }
 main
 {
-    padding: 0 4%;
+    padding: 0 3%;
 }
 /*header */
 header
 {
     display: flex;
     justify-content: space-between;
-    padding: 0 4%;
+    padding: 0 3%;
 }
 
 header img
@@ -29,7 +29,7 @@ header img
 
  nav
  {
-    width:30%
+    width:35%
  }
 nav ul
 {
@@ -237,6 +237,7 @@ button:hover
     border-radius: 20px;
     padding: 20px 40px;
     width: 60%;
+    font-size: 0.9em;
 }
 
 .accommodation_Marseille_card img
@@ -258,7 +259,7 @@ button:hover
     background-color:white;
     border-radius: 15px;
     width: 29.5%;
-    margin: 20px 0;
+    margin: 0 0 30px 0;
     padding:5px;
     box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.05);
 }
@@ -280,6 +281,7 @@ button:hover
 .accommodations_Marseille p a
 {
     font-weight: bold;
+    font-size: 1.3em;
 }
 
 .accommodations_Marseille p a:hover
@@ -295,7 +297,7 @@ aside
     border-radius: 20px;
     padding: 20px 40px;
     width: 25%;
-    white-space: nowrap;
+    font-size: 0.9em;
 }
 
 .most_popular_title
@@ -317,6 +319,7 @@ aside
     border-radius:15px;
     padding: 5px;
     box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.05);
+    margin-bottom: 30px;
 }
 
 .most_popular_card:hover
@@ -326,20 +329,21 @@ aside
 
 .most_popular_card img
 {
-    width: 125px;
+    width: 40%;
     height: 135px;
     border-radius: 15px 0 0 15px;
     object-fit: cover;
-    
 }
-.most_popular_card_margin
+ 
+.most_popular_card_description
 {
-    margin: 15px 0 15px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-
 aside h3
 {
-    margin: 15px 50px 5px 20px;
+    margin: 10px 0px 5px 20px;
 }
 
 .price_paragraph
@@ -350,7 +354,7 @@ aside h3
 
 .rating_paragraph
 {
-    margin: 30px 0 10px 20px;
+    margin: 00px 0 10px 20px;
     
     font-size: 0.9em;
 }
@@ -432,7 +436,7 @@ display: flex;
 justify-content: space-between;
 background-color: #F2F2F2;
 margin-top: 60px;
-padding: 15px 4% 30px 4%;
+padding: 15px 3% 30px 3%;
 }
 
 footer div
@@ -448,7 +452,7 @@ color: #0065FC;
 
 /*media queries for tablets*/
 
-@media screen and (max-width: 768px) 
+@media screen and (max-width: 1280px) 
 {   
     
 
@@ -458,7 +462,7 @@ color: #0065FC;
 
 /*media queries for smartphone*/
 
-@media screen and (max-width: 480px)
+@media screen and (max-width: 768px)
 {
     /*general rules*/
     main
