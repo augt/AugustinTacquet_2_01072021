@@ -261,7 +261,7 @@ button:hover
     width: 29.5%;
     margin: 0 0 30px 0;
     padding:5px;
-    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
 }
 .accommodation_Marseille_card:hover
 {
@@ -318,7 +318,7 @@ aside
     display: flex;
     border-radius:15px;
     padding: 5px;
-    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
     margin-bottom: 30px;
 }
 
@@ -376,13 +376,19 @@ aside h3
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 22%;
+}
+
+.tall_height
+{
+    
+    width: 22%;
 }
 
 .activity_card
 {
-    box-shadow: 6px 6px 6px #f2f2f2;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
     border-radius: 20px;
-    height: fit-content;
 }
 
 .activity_card:hover
@@ -390,23 +396,22 @@ aside h3
     transform: scale(1.05);
 }
 
-
 .activities_cards_bloc img
 {
-border-radius: 20px 20px 0 0;
-width: 315px;
-object-fit: cover;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
 }
 
 .tall_height img
 {
-height: 390px;
+    height: 390px;
 }
 
 .activity_card h3
 {
-margin: 20px 0 0px 20px;
-padding-bottom: 20px;
+    margin: 20px 0 0px 20px;
+    padding-bottom: 20px;
 }
 
 .Pomegues_height img
