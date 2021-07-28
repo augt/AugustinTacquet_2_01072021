@@ -286,13 +286,13 @@ button:hover
     font-size: 0.9em;
 }
 
-.accommodations_Marseille p a
+.display_more
 {
     font-weight: bold;
     font-size: 1.3em;
 }
 
-.accommodations_Marseille p a:hover
+.display_more:hover
 {
     color: #0065FC;
 }
@@ -726,7 +726,7 @@ color: #0065FC;
         width: 100%;
     }
 
-    .accommodations_Marseille div + p 
+    .display_more
     {
         font-size: 1.1em;
         margin: 10px 0;
