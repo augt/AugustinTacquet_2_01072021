@@ -23,7 +23,7 @@ header
 
 header img
 {
-    width: 100px;
+    height: 50px;
     margin-top: 30px;
 }
 
@@ -466,17 +466,78 @@ color: #0065FC;
 
 /*media queries for tablets*/
 
-@media screen and (max-width: 1280px) 
+@media all and (min-width:820px) and (max-width: 1200px) 
 {   
-    
+    /*header*/
+    nav 
+    {
+        width:50%
+    }
+
+    /*filters' section*/
+
+    .filters_bloc ul 
+    {
+        flex-wrap: wrap;
+    }
+
+    .filters_bloc li
+    {
+        padding: 0;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    /* accommodations' section*/
+
+    .accommodations_section
+    {
+        flex-direction: column-reverse;
+    }
+
+    main 
+    {
+        padding: 0;
+        margin: 0 3%
+    }
+    aside 
+    {
+        width:unset;
+        margin-bottom: 30px;
+        padding: 20px;
+    }
+
+    aside div + div
+    {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .most_popular_card
+    {
+        width: 31.5%;
+        margin-bottom: 0;
+        max-height: 140px;
+    }
 
 
+    .most_popular_card h3, .most_popular_card p 
+    {
+        margin-left: 10px;
+    }
+
+    .accommodations_Marseille
+    {
+        width: unset;
+        padding: 20px;
+    }
 }
 
 
 /*media queries for smartphone*/
 
-@media screen and (max-width: 768px)
+@media screen and (max-width: 819px)
 {
     /*general rules*/
     main
@@ -494,6 +555,8 @@ color: #0065FC;
     header img
     {
         padding-left: 6%;
+        height: unset;
+        width: 100px;
     }
     
     nav 
